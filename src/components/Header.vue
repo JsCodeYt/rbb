@@ -82,7 +82,7 @@ export default {
     width: 5px;
     height: 61px;
     left: 400px;
-    top: 300px;
+    top: 280px;
     background: #51CCF3;
 }
 
@@ -112,9 +112,11 @@ export default {
     margin-top: 10px;
     gap: 15px;
 }
+
 .left__card img {
     transition: all 0.5s ease-in-out;
 }
+
 .left__card:hover img {
     transform: rotate(360deg);
 }
